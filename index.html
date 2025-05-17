@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,15 +35,40 @@
       <div class="w-full md:w-[80vw]">
         <header class="bg-[#1b1b1b] md:rounded-b-md flex justify-center py-8">
           <div
-            class="w-[80%] lg:w-full lg:px-8 flex flex-col lg:flex-row justify-between items-center"
+            class="w-[80%] lg:w-full lg:px-4 flex flex-col gap-4 items-center lg:grid lg:grid-cols-3 text-[#DDDDDD]"
           >
             <h1 class="hidden">Abdelrahman Salama</h1>
             <img
               src="./assets/logo.png"
-              class="h-[60px] mb-4 lg:mb-0"
+              class="h-[60px] lg:mb-0"
               alt="Abdelrahman Salama"
             />
-            <div class="flex gap-2">
+            <nav>
+              <ul class="flex gap-4 lg:justify-center">
+                <li>
+                  <a
+                    href="#tech-section"
+                    class="hover:opacity-80 transition duration-250"
+                    >Tech Stack</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#projects-section"
+                    class="hover:opacity-80 transition duration-250"
+                    >Projects</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#education-section"
+                    class="hover:opacity-80 transition duration-250"
+                    >Education</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="flex gap-4 lg:justify-end">
               <a href="https://github.com/abdelrahmanHSalama"
                 ><img
                   src="./assets/icons/github.png"
@@ -68,9 +93,9 @@
       </div>
     </div>
     <div class="w-screen bg-black text-white flex justify-center">
-      <div class="w-[80vw] pt-4 pb-8">
+      <div class="w-[80vw] py-16">
         <section
-          class="flex flex-col items-center lg:flex-row lg:justify-between gap-4 lg:px-8"
+          class="flex flex-col items-center lg:flex-row lg:justify-between gap-4"
           id="hero-section"
         >
           <div class="flex flex-col justify-center">
@@ -104,7 +129,7 @@
               class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4"
             >
               <div
-                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full hover:text-white hover:bg-black transition duration-200"
+                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full md:hover:text-white md:hover:bg-black transition duration-200"
               >
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
@@ -114,7 +139,7 @@
                 <p>HTML</p>
               </div>
               <div
-                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full hover:text-white hover:bg-black transition duration-200"
+                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full md:hover:text-white md:hover:bg-black transition duration-200"
               >
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
@@ -124,7 +149,7 @@
                 <p>CSS</p>
               </div>
               <div
-                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full hover:text-white hover:bg-black transition duration-200"
+                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full md:hover:text-white md:hover:bg-black transition duration-200"
               >
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
@@ -134,7 +159,7 @@
                 <p>JavaScript</p>
               </div>
               <div
-                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full hover:text-white hover:bg-black transition duration-200"
+                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full md:hover:text-white md:hover:bg-black transition duration-200"
               >
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
@@ -144,7 +169,7 @@
                 <p>TypeScript</p>
               </div>
               <div
-                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full hover:text-white hover:bg-black transition duration-200"
+                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full md:hover:text-white md:hover:bg-black transition duration-200"
               >
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
@@ -154,7 +179,7 @@
                 <p>React</p>
               </div>
               <div
-                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full hover:text-white hover:bg-black transition duration-200"
+                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full md:hover:text-white md:hover:bg-black transition duration-200"
               >
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
@@ -164,7 +189,7 @@
                 <p>Next.js</p>
               </div>
               <div
-                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full hover:text-white hover:bg-black transition duration-200"
+                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full md:hover:text-white md:hover:bg-black transition duration-200"
               >
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
@@ -174,7 +199,7 @@
                 <p>Bootstrap</p>
               </div>
               <div
-                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full hover:text-white hover:bg-black transition duration-200"
+                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full md:hover:text-white md:hover:bg-black transition duration-200"
               >
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
@@ -184,7 +209,7 @@
                 <p>Tailwind</p>
               </div>
               <div
-                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full hover:text-white hover:bg-black transition duration-200"
+                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full md:hover:text-white md:hover:bg-black transition duration-200"
               >
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg"
@@ -194,7 +219,7 @@
                 <p>Material UI</p>
               </div>
               <div
-                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full hover:text-white hover:bg-black transition duration-200"
+                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full md:hover:text-white md:hover:bg-black transition duration-200"
               >
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
@@ -204,7 +229,7 @@
                 <p>Sass</p>
               </div>
               <div
-                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full hover:text-white hover:bg-black transition duration-200"
+                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full md:hover:text-white md:hover:bg-black transition duration-200"
               >
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
@@ -219,7 +244,7 @@
             >
               <p class="flex items-center">I also know about...</p>
               <div
-                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full hover:text-white hover:bg-black transition duration-200"
+                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full md:hover:text-white md:hover:bg-black transition duration-200"
               >
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
@@ -229,7 +254,7 @@
                 <p>Node.js</p>
               </div>
               <div
-                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full hover:text-white hover:bg-black transition duration-200"
+                class="flex gap-4 justify-start items-center rounded-md p-4 border border-black w-full md:hover:text-white md:hover:bg-black transition duration-200"
               >
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
@@ -374,7 +399,7 @@
       <div class="w-[80vw] pt-4 pb-8">
         <section
           class="flex flex-col items-center space-y-4"
-          id="projects-section"
+          id="education-section"
         >
           <h2 class="text-[1.5rem] font-bold">Education</h2>
           <div
